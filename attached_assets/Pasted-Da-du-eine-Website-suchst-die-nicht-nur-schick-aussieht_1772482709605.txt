@@ -1,0 +1,29 @@
+Da du eine Website suchst, die nicht nur schick aussieht, sondern über ein Admin-Panel (den „Server-Teil“) steuerbar ist, um Projekte einfach hinzuzufügen, ist ein präziser Prompt für den Replit Agent entscheidend.
+Kopiere diesen Prompt und füge ihn in den Replit Agent ein. Er ist so geschrieben, dass er deine Werte (Klarheit, Transparenz) und deine Tätigkeitsfelder direkt in den Code einwebt:
+Der Replit Agent Prompt
+> Rolle: Handle als erfahrener Full-Stack Entwickler und Designer.
+> Ziel: Erstelle eine minimalistische, hochperformante Portfolio-Website für "Tom Lovric - Studio für Architektur, Design und Philosophie".
+> Core-Werte & Design:
+>  * Stil: Extrem minimalistisch (Apple/Braun-Inspiration), viel Weißraum, klare Typografie (Sans-Serif).
+>  * Werte: Klarheit, Transparenz und Kooperation sollen durch das Layout spürbar sein.
+> Features:
+>  * Public Site: Eine Landingpage mit den Sektionen: Architektur, Design, Philosophie, Gestalten und Beraten.
+>  * Projekt-Showcase: Eine Galerie-Ansicht für Projekte. Jedes Projekt hat einen Titel, eine Beschreibung und ein Bild.
+>  * Admin-Dashboard (Server-Steuerung): Erstelle einen passwortgeschützten Bereich unter /admin. Hier möchte ich:
+>    * Neue Projekte hinzufügen (Titel, Text, Bild-URL).
+>    * Bestehende Projekte bearbeiten oder löschen.
+>    * Die Texte der Landingpage live ändern können.
+>  * Tech-Stack: Nutze Node.js (Express) für den Server und Replit Database, um die Projektdaten dauerhaft zu speichern. Nutze Tailwind CSS für das Styling.
+>  * Nachhaltigkeit: Der Code soll sauber, modular und effizient sein (passend zum iMac M1 Server-Konzept).
+> Anweisung: Beginne mit dem Grundgerüst des Servers und dem Datenmodell für die Projekte. Implementiere dann das Admin-Interface und zum Schluss das öffentliche Frontend.
+> 
+Was passiert nach dem Prompt?
+ * Datenbank-Setup: Replit wird automatisch die "Replit Database" nutzen. Deine Projekte sind also nicht hart im Code eingeschrieben, sondern liegen in einer Datenbank, die du über dein Dashboard steuerst.
+ * Kosten: Solange du das Projekt auf Replit entwickelst, ist es im Rahmen deines Accounts oft kostenlos oder günstig.
+ * Verbindung mit deiner Domain:
+   * Sobald die Seite fertig ist, gehst du in Replit auf "Deployments".
+   * Dort kannst du deine neue Domain (z.B. tomlovric.de) verknüpfen.
+   * Du musst dann nur noch die DNS-Einträge bei deinem Domain-Anbieter (z.B. Hetzner) hinterlegen.
+Tipp für die Bilder:
+Da du Architektur und Design machst, frag den Agent nach dem ersten Entwurf: "Bitte füge einen Image-Upload-Service (z.B. via Cloudinary oder einfaches Hosting) hinzu, damit ich Bilder direkt vom Admin-Panel hochladen kann."
+Soll ich dir erklären, wie du den Passwortschutz für deinen Admin-Bereich sicher einrichtest, damit nur du deine Projekte bearbeiten kannst?
